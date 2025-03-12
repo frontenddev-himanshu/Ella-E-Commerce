@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --scroll-text-: #b05d5d;
+    --scroll-text-bg: #ffe8e8;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* text scroll */
+.slider-wrapper {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    background-color: var(--scroll-text-bg);
+}
+
+.slider {
+    display: flex;
+    white-space: nowrap;
+}
+
+.slide {
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    margin: 0 60px;
+    display: flex;
+    align-items: center;
+}
+
+.slide span {
+    color: var(--scroll-text-);
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.scroll-icon {
+    margin-left: 5px;
+}
