@@ -188,6 +188,7 @@
     .res-shop,
     .res-s {
         font-size: 12px !important;
+        text-decoration: none;
     }
 
     .user-shop {
@@ -200,6 +201,16 @@
 
     .slide span {
         font-size: .7rem;
+    }
+
+    .slide {
+        margin: 0;
+    }
+
+    .nav-i-btn {
+        display: flex;
+        align-items: center;
+        gap: 5px;
     }
 
     /* nav end */
