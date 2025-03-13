@@ -153,4 +153,36 @@
         width: 50%;
     }
 
+    .logo-img {
+        height: 25px;
+    }
+
+    .nav-wrapper {
+        padding: .5rem 0;
+    }
+
+    .nav-footer-wrapper {
+        height: 50px;
+    }
+
+    .input-container {
+        width: 110px;
+    }
+
+    .line-h {
+        height: 2px;
+        width: 30px;
+        margin: 5px;
+    }
+
+    .input {
+        font-size: .6rem;
+    }
+
+    .res-shop,
+    .res-s {
+        font-size: 12px !important;
+    }
+
+
 }
