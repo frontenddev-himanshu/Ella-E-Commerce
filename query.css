@@ -10,6 +10,8 @@
 
 
 @media screen and (max-width: 1023px) {
+
+    /* nav */
     .nav-contents {
         display: none;
     }
@@ -133,6 +135,8 @@
         display: none;
     }
 
+    /* nav end */
+
 
 }
 
@@ -141,6 +145,8 @@
 
 
 @media screen and (max-width: 768px) {
+
+    /* nav */
     .input-container {
         width: 130px;
     }
@@ -184,5 +190,18 @@
         font-size: 12px !important;
     }
 
+    .user-shop {
+        gap: 12px;
+    }
+
+    .hamburger-search {
+        gap: 10px;
+    }
+
+    .slide span {
+        font-size: .7rem;
+    }
+
+    /* nav end */
 
 }

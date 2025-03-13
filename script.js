@@ -1,3 +1,4 @@
+// text slide
 const slider = document.getElementById("slider");
 const sliderClone = slider.innerHTML;
 slider.innerHTML += sliderClone;
