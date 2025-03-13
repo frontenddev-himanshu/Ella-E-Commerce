@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ella - shopify ⚡</title>
-    <link rel="shortcut icon" href="./Assets/favicon_32x32.png" type="image/png">
+    <link rel="shortcut icon" href="./Assets/favicon_32x32.png" type="image/png" />
     <!-- style -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- responsive -->
-    <link rel="stylesheet" href="query.css">
+    <link rel="stylesheet" href="query.css" />
     <!-- icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -68,7 +68,7 @@
                     <a href="#">
                         <img class="logo-img"
                             src="https://new-ella-demo.myshopify.com/cdn/shop/files/ella-logo-black-compressor.png?v=1629858814&width=300"
-                            alt="nav-logo">
+                            alt="nav-logo" />
                     </a>
                 </div>
 
@@ -78,7 +78,7 @@
 
                         <div class="search">
                             <div class="input-container">
-                                <input type="text" name="text" class="input" placeholder="search...">
+                                <input type="text" name="text" class="input" placeholder="search..." />
                                 <span class="icon">
                                     <svg width="19px" height="19px" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -120,9 +120,7 @@
 
                                     <div class="shop-cancle"></div>
                                 </div>
-                                <div class="shop-items">
-                                    No Items
-                                </div>
+                                <div class="shop-items">No Items</div>
                             </div>
                         </div>
 
@@ -138,9 +136,7 @@
 
                                     <div class="wish-cancle"></div>
                                 </div>
-                                <div class="wish-items">
-                                    No Items
-                                </div>
+                                <div class="wish-items">No Items</div>
                             </div>
                         </div>
 
@@ -154,7 +150,6 @@
 
         <!-- nav footer -->
         <div class="nav-footer-wrapper">
-
             <div class="res-nav">
                 <div class="hamburger-search">
                     <div class="hamburger">
@@ -165,13 +160,12 @@
 
                     <div class="res-search">
                         <div class="input-container">
-                            <input type="text" name="text" class="input" placeholder="search...">
+                            <input type="text" name="text" class="input" placeholder="search..." />
                             <span class="icon">
                                 <svg width="19px" height="19px" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
-                                    </g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                                     <g id="SVGRepo_iconCarrier">
                                         <path opacity="1" d="M14 5H20" stroke="#000" stroke-width="1.5"
                                             stroke-linecap="round" stroke-linejoin="round"></path>
@@ -203,26 +197,32 @@
 
                                 <div class="shop-cancle"></div>
                             </div>
-                            <div class="shop-items">
-                                No Items
-                            </div>
+                            <div class="shop-items">No Items</div>
                         </div>
                     </div>
 
-                    <div class="res-shop">
-                        <a class="nav-i-btn res-shop" href="#">
-                            <i class="fa-solid fa-user"></i>
-                            User
+                    <div class="wish">
+                        <a class="wish-btn nav-i-btn" href="#">
+                            <i class="fa-solid fa-heart"></i>
+                            Wish
                         </a>
+
+                        <div class="wish-details">
+                            <div class="wish-head">
+                                <span>Wish List</span>
+
+                                <div class="wish-cancle"></div>
+                            </div>
+                            <div class="wish-items">No Items</div>
+                        </div>
                     </div>
+
                 </div>
             </div>
 
             <div class="nav-footer">
                 <div class="nav-footer-head">
-                    <span>
-                        Menu
-                    </span>
+                    <span> Menu </span>
 
                     <div class="cancle">
                         <div class="c-line"></div>
@@ -263,6 +263,12 @@
                     <div class="line"></div>
                 </a>
 
+                <div class="sign-up s-des">
+                    <a class="sign-btn" href="#">Sign in or Create an account
+                        <div class="line"></div>
+                    </a>
+                </div>
+
                 <span class="customer d-s">Customer Service 091 234-ELLA</span>
             </div>
             <!-- nav footer end -->
@@ -270,6 +276,129 @@
         <!-- nav end -->
     </header>
     <!-- header end -->
+
+    <!-- account section -->
+    <div class="account-wrapper">
+        <div class="ac-form">
+            <div class="ac-form-header">
+                <div class="acc-pages">
+                    <span class="acc-login">
+                        Login
+                    </span>
+
+                    <span class="acc-create">
+                        Create account
+                    </span>
+                </div>
+
+                <div class="acc-c"></div>
+            </div>
+
+            <div class="create-acc">
+                <div class="login-acc name-acc">
+                    <div class="login-e">
+                        <label class="labl" for="input">First Name</label>
+                        <input class="input-e" type="text" placeholder="First Name">
+                    </div>
+
+                    <div class="login-e last-name-acc">
+                        <label class="labl" for="input">Last Name</label>
+                        <input class="input-e" type="text" placeholder="Last Name">
+                    </div>
+
+                    <div class="login-e">
+                        <label class="labl" for="input">Your Email </label>
+                        <input class="input-e" type="text" placeholder="Your Email">
+                    </div>
+
+                    <div class="login-e login-p">
+                        <label class="labl" for="input">Your Password</label>
+                        <input class="input-e" type="text" placeholder="Your Password">
+                    </div>
+
+                    <div class="acc-btn">
+                        <button>
+                            Create
+                        </button>
+                    </div>
+
+                    <div class="c-support">
+                        <span class="l-c-s">Customer Service 091 234-ELLA</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="login-acc">
+                <div class="login-e">
+                    <label class="labl" for="input">Email Address</label>
+                    <input class="input-e" type="text" placeholder="Email Address">
+                </div>
+
+                <div class="login-e login-p">
+                    <label class="labl" for="input">Password</label>
+                    <input class="input-e" type="text" placeholder="Password">
+                </div>
+
+                <div class="acc-btn">
+                    <button>
+                        Account
+                    </button>
+                </div>
+
+                <div class="c-support">
+                    <span class="l-c-s">Customer Service 091 234-ELLA</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- account section end -->
+
+
+    <!-- front entry -->
+    <div class="front-entry">
+        <div class="front-pic">
+            <img src="./Assets/newsletter_e4e489d4-f7a0-4a96-b583-f2c07e12f2c9.webp" alt="">
+        </div>
+
+        <div class="front-form">
+            <h2>join our mailing list</h2>
+            <p>sign up exclusive updates, new arrivals & insider only discounts</p>
+
+            <div class="front-inputs">
+                <input type="text" placeholder="Enter Your Email Address">
+                <button>
+                    Submit
+                </button>
+            </div>
+
+            <div class="social-front">
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+
+            <div class="f-c">
+                <div class="front-cancle"></div>
+            </div>
+        </div>
+    </div>
+    <!-- front entry -->
 
     <!-- scripts -->
     <script src="jquery.js"></script>

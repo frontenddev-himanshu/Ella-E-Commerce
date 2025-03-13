@@ -69,3 +69,65 @@ $(document).ready(() => {
         })
 
 })
+
+// account login
+$(document).ready(() => {
+
+    $('.sign-btn').click(() => {
+        $('.account-wrapper').css({ "visibility": "visible", "opacity": "1" })
+    })
+
+    $('.sign-btn').click(() => {
+        $('.ac-form').css({ "transform": "translateX(0px)" })
+    })
+
+    $('.acc-c').click(() => {
+        $('.account-wrapper').css({ "visibility": "hidden", "opacity": "0" })
+
+        $('.ac-form').css({ "transform": "translateX(400px)" })
+    })
+})
+
+// create account
+
+$(document).ready(() => {
+
+    $('.acc-create').click(() => {
+        $('.create-acc').css({ "transform": "translateX(0px)", "opacity": "1", "visibility": "visible" })
+    })
+
+    $('.acc-login').click(() => {
+        $('.create-acc').css({ "transform": "translateX(400px)", "opacity": "0", "visibility": "hidden" })
+    })
+
+    $('.acc-c').click(() => {
+        $('.create-acc').css({ "transform": "translateX(400px)", "opacity": "0", "visibility": "hidden" })
+    })
+})
+
+$(document).ready(() => {
+
+    $('.acc-c').click(() => {
+        $('.nav-footer').css({ "left": "-200px", "visibility": "hidden" })
+    })
+})
+
+
+// front
+$(document).ready(() => {
+
+    $('.f-c').click(() => {
+        $('.front-entry').css({ "opacity": "0", "visibility": "hidden" })
+
+        $('.front-pic').css({ "transform": "translateX(120px)" })
+    })
+})
+
+let frontDisplay = document.querySelector(".front-entry");
+let frontImg = document.querySelector(".front-pic")
+
+setTimeout(() => {
+    frontDisplay.style.opacity = 1;
+    frontDisplay.style.visibility = "visible"
+    frontImg.style.transform = "translateX(0px)"
+}, 1000);

@@ -91,6 +91,12 @@
         font-weight: 300;
     }
 
+    .wish-btn {
+        color: #ffffff;
+        font-size: .9rem;
+        font-weight: 300;
+    }
+
     .slide span {
         font-size: .8rem;
     }
@@ -132,12 +138,53 @@
     }
 
     .wish-details {
-        display: none;
+        position: fixed;
+        right: -30%;
+        top: 0;
+        z-index: 100;
+        width: 30%;
     }
 
     /* nav end */
 
+    .sign-btn:hover {
+        text-decoration: none;
+    }
 
+    .s-des {
+        display: flex;
+    }
+
+    /* front section */
+    .front-pic,
+    .front-form {
+        width: 300px;
+        height: 300px;
+    }
+
+    .front-form h2 {
+        font-size: 1.1rem;
+    }
+
+    .front-form {
+        padding: 25px;
+    }
+
+    .front-form p {
+        font-size: .8rem;
+    }
+
+    .front-inputs input {
+        padding: 15px 10px;
+    }
+
+    .front-inputs button {
+        height: 40px;
+    }
+
+    .social-front a {
+        font-size: 1.1rem;
+    }
 }
 
 
@@ -186,7 +233,8 @@
     }
 
     .res-shop,
-    .res-s {
+    .res-s,
+    .wish-btn {
         font-size: 12px !important;
         text-decoration: none !important;
     }
@@ -212,6 +260,27 @@
         align-items: center;
         gap: 5px;
     }
+
+    .sign-btn:hover {
+        text-decoration: none;
+    }
+
+    .s-des {
+        display: flex;
+    }
+
+    .front-entry {
+        flex-direction: column-reverse;
+    }
+
+    .f-c {
+        padding: 5px;
+    }
+
+    .front-cancle {
+        width: 20px;
+    }
+
 
     /* nav end */
 

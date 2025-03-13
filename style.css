@@ -326,4 +326,257 @@ body {
     color: var(--nav-text);
 }
 
+.s-des {
+    display: none;
+}
+
 /* nav end */
+
+/* account section */
+.account-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+    background-color: #0000008f;
+    display: flex;
+    justify-content: end;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s all;
+}
+
+.ac-form {
+    width: 400px;
+    height: 100%;
+    background-color: #fafafa;
+    transform: translateX(400px);
+    transition: .5s all;
+    position: relative;
+}
+
+.ac-form-header {
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.acc-login,
+.acc-create {
+    color: var(--nav-footer-text);
+    font-size: .9rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.acc-create:hover {
+    text-decoration: underline;
+}
+
+.acc-login:hover {
+    text-decoration: underline;
+}
+
+.acc-c {
+    width: 32px;
+    height: 4px;
+    margin: 8px;
+    background-color: var(--nav-footer-text);
+}
+
+.acc-pages {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.create-acc {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+    transition: .5s all;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+.login-acc {
+    padding: 20px;
+}
+
+.login-e {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.labl {
+    font-size: .8rem;
+    color: var(--nav-footer);
+}
+
+.input-e {
+    margin-top: 8px;
+    border: 0;
+    outline: 1px solid #0000007a;
+    padding: 15px 10px;
+}
+
+.input-e::placeholder {
+    color: #0000007a;
+    letter-spacing: 1px;
+}
+
+.login-p {
+    margin-top: 20px;
+}
+
+.acc-btn {
+    margin-top: 20px;
+}
+
+.acc-btn button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: var(--nav-footer);
+    color: var(--nav-footer-text);
+    font-size: .9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.c-support {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.l-c-s {
+    font-size: .8rem !important;
+    color: var(--nav-text);
+}
+
+.last-name-acc {
+    margin-top: 20px;
+}
+
+/* account section end */
+
+
+/* front entry */
+.front-entry {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    background-color: #00000085;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s all;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.front-pic {
+    width: 500px;
+    height: 500px;
+    transform: translateX(120px);
+    transition: .6s all;
+}
+
+.front-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.front-form {
+    width: 500px;
+    height: 500px;
+    background-color: #fafafa;
+    padding: 60px;
+    position: relative;
+}
+
+.front-form h2 {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #000000;
+}
+
+.front-form p {
+    font-size: 1rem;
+    color: var(--nav-text);
+    text-align: center;
+    margin-top: 5px;
+}
+
+.front-inputs {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.front-inputs input {
+    border: none;
+    outline: 0;
+    outline: 1px solid #0000007a;
+    padding: 20px 10px;
+}
+
+.front-inputs button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: var(--nav-footer);
+    color: var(--nav-footer-text);
+    font-size: .9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.social-front {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.social-front a {
+    font-size: 1.3rem;
+    color: var(--nav-text);
+}
+
+.f-c {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    background-color: #000000;
+    padding: 10px;
+}
+
+.front-cancle {
+    width: 30px;
+    height: 4px;
+    margin: 8px;
+    background-color: #fafafa;
+}
+
+/* front entry end */
