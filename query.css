@@ -188,7 +188,7 @@
     .res-shop,
     .res-s {
         font-size: 12px !important;
-        text-decoration: none;
+        text-decoration: none !important;
     }
 
     .user-shop {
