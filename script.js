@@ -131,3 +131,24 @@ setTimeout(() => {
     frontDisplay.style.visibility = "visible"
     frontImg.style.transform = "translateX(0px)"
 }, 1000);
+
+
+// mouseover-nav
+
+$(document).ready(() => {
+
+    $(".nav-all-a").mouseover(() => {
+        $(".mouseover-det").css({ "visibility": "visible" })
+    })
+    $(".nav-all-a").mouseout(() => {
+        $(".mouseover-det").css({ "visibility": "hidden" })
+    })
+    $(".mouseover-back").click(() => {
+        $(".mouseover-det").css({ "visibility": "hidden" })
+    })
+
+
+})
+
+
+
