@@ -383,10 +383,8 @@
 
     .hero-disc {
         width: 200px;
-        top: 40%;
+        top: 30%;
         left: 20px !important;
-        /* background-color: #dff3f2; */
-        /* padding: 16px 0; */
     }
 
     .hero-img {
@@ -407,10 +405,12 @@
     .hero-about {
         font-size: .6rem;
         color: #ffffff;
+        margin-top: 10px;
     }
     
     .hero-btn {
         padding: 10px 40px;
+        margin-top: 10px;
     }
 
     .hero-btn a {
