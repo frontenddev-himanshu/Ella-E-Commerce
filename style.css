@@ -6,6 +6,7 @@
     --nav-text: #323232;
     --nav-footer: #000000;
     --nav-footer-text: #ffffff;
+    --hero-text: #232323;
 }
 
 * {
@@ -18,7 +19,7 @@ html,
 body {
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /* text scroll */
@@ -250,7 +251,7 @@ body {
 }
 
 .shop-details {
-    position: absolute;
+    position: fixed;
     height: 100%;
     width: 400px;
     background-color: #fafafa;
@@ -289,7 +290,7 @@ body {
 }
 
 .wish-details {
-    position: absolute;
+    position: fixed;
     height: 100%;
     width: 400px;
     background-color: #fafafa;
@@ -330,66 +331,6 @@ body {
 .s-des {
     display: none;
 }
-
-.mouseover-det {
-    position: fixed;
-    top: 224px;
-    right: 0;
-    width: 100%;
-    height: fit-content;
-    background-color: #fafafa;
-    z-index: 100;
-    visibility: hidden;
-    transition: .2s all;
-    padding: 20px 0;
-    display: flex;
-    justify-content: center;
-    box-shadow: 0px 0px 20px #00000029;
-}
-
-.mouseover-header {
-    display: none;
-}
-
-.mouseover-del {
-    display: flex;
-    gap: 100px;
-    width: 60%;
-}
-
-.del-list span {
-    font-size: .9rem;
-    color: var(--nav-footer);
-}
-
-.mouseover-del ul {
-    list-style: none;
-    margin-top: 10px;
-}
-
-.mouseover-del ul li {
-    font-size: .8rem;
-    font-weight: 400;
-    margin: 8px 0;
-    width: fit-content;
-    color: var(--nav-text)
-}
-
-.hov-line {
-    width: 0%;
-    height: 1px;
-    background-color: #000000;
-    transition: .4s all;
-}
-
-.mouseover-del ul li:hover .hov-line {
-    width: 100%;
-}
-
-.res-click-nav {
-    display: none;
-}
-
 
 /* nav end */
 
@@ -641,3 +582,75 @@ body {
 }
 
 /* front entry end */
+
+
+
+/* hero */
+.hero {
+    position: relative;
+}
+
+.hero-img {
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.hero-disc {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    width: 400px;
+    text-align: center;
+}
+
+.hero-head {
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: var(--hero-text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-head-line {
+    width: 50px;
+    height: 2px;
+    background-color: var(--hero-text);
+    margin-top: 15px;
+}
+
+.hero-about {
+    font-size: .8rem;
+    color: var(--hero-text);
+    margin-top: 20px;
+}
+
+.hero-btn {
+    margin-top: 20px;
+    padding: 15px 60px;
+    border: none;
+    background-color: var(--hero-text);
+    transition: .1s all;
+}
+
+.hero-btn a {
+    text-decoration: none;
+    color: var(--nav-footer-text);
+    font-size: .9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: .4s all;
+}
+
+.hero-btn:hover {
+    outline: 1px solid var(--hero-text);
+    background-color: var(--nav-footer-text);
+}
+
+.hero-btn:hover a {
+    color: var(--hero-text);
+}
+/* hero end */
