@@ -153,13 +153,19 @@ $(document).ready(() => {
 // show more
 $(document).ready(() => {
     $(".more-btn-s").click(() => {
-        $(".show-more").css({"visibility":"visible", "display":"flex", "opacity":"1"})
+        $(".show-more").css({ "visibility": "visible", "display": "flex", "opacity": "1" })
 
-        $(".more-btn-s").css({"visibility":"hidden"})
+        $(".more-btn-s").css({ "visibility": "hidden" })
 
-        $(".ss").css({"visibility":"visible"})
+        $(".ss").css({ "visibility": "visible" })
     })
 })
 
 
 
+
+$(document).ready(() => {
+    $(".quick-btn").click(() => {
+        alert("Your Item Is Added")
+    })
+})

@@ -5,7 +5,10 @@
     .mouseover-del,
     .s-top-wrapper,
     .all-coll-stor-wrapper,
-    .collection-text {
+    .collection-text,
+    .shopping-product-wrapper,
+    .shopping-i-wrapper,
+    .shopping-footer {
         width: 90%;
     }
 
@@ -294,6 +297,22 @@
     }
 
 
+    .s-pro-i-wrapper {
+        height: 400px;
+    }
+
+    .quick-btn {
+        transform: translateY(0);
+    }
+
+    .quick-btn button {
+        padding: 15px 0;
+        background-color: #000000;
+    }
+
+    .quick-btn button a {
+        color: #fafafa;
+    }
 
 }
 
@@ -477,6 +496,27 @@
 
     .product-s-dec {
         font-size: .7rem;
+    }
+
+
+    .s-pro-row {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    .s-pro-card {
+        width: 100%;
+    }
+
+    .shopping-product-wrapper,
+    .shopping-i-wrapper,
+    .shopping-footer {
+        width: 95%;
+    }
+
+    .s-pro-i-wrapper {
+        height: 500px;
     }
 
 }

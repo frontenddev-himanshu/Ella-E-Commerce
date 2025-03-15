@@ -659,7 +659,8 @@ body {
 /* shop page */
 .s-top,
 .collection-wrapper,
-.all-collection-store {
+.all-collection-store,
+.shopping-i {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -668,7 +669,9 @@ body {
 
 .s-top-wrapper,
 .collection-text,
-.all-coll-stor-wrapper {
+.all-coll-stor-wrapper,
+.shopping-i-wrapper,
+.shopping-footer {
     width: 60%;
 }
 
@@ -762,4 +765,148 @@ body {
     transition: .5s all;
 }
 
+
 /* shop page end */
+
+
+
+
+/* shopping page */
+
+.shopping-pic {
+    width: 100%;
+    height: 65vh;
+    object-fit: cover;
+    object-position: top;
+}
+
+.about-shoping,
+.all-shopping-pro {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.shopping-footer h2 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #232323;
+    text-transform: uppercase;
+}
+
+.shopping-footer p {
+    font-size: .8rem;
+    color: #232323;
+    margin-top: 5px;
+}
+
+.all-shopping-pro {
+    margin-top: 50px;
+}
+
+.shopping-product-wrapper {
+    width: 60%;
+    border-top: 1px solid #99999999;
+}
+
+.s-pro-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.s-pro-card {
+    width: 49%;
+    height: fit-content;
+}
+
+.s-pro-card:hover .i-s-f {
+    opacity: 0;
+}
+
+.s-pro-card:hover .quick-btn {
+    transform: translateY(0%);
+}
+
+.s-pro-i-wrapper {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+}
+
+.s-pro-i-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    object-position: top;
+    transition: all .4s;
+}
+
+.s-pro-content {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.s-pro-head {
+    font-size: .8rem;
+    color: #999999;
+    text-transform: uppercase;
+}
+
+.s-pro-des {
+    color: #232323;
+    font-size: .8rem;
+    margin-bottom: 10px;
+}
+
+.s-pro-price {
+    font-size: 1rem;
+    color: #e95944;
+    font-weight: 600;
+}
+
+.quick-btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: fit-content;
+    background-color: #fafafa;
+    padding: 25PX 0;
+    display: flex;
+    justify-content: center;
+    transform: translateY(100%);
+    transition: .4s all;
+}
+
+.quick-btn button {
+    width: 90%;
+    border: none;
+    padding: 20px 0;
+    font-size: .9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: transparent;
+    outline: 1px solid #000000;
+    transition: .5s all;
+    cursor: pointer;
+}
+
+.quick-btn button:hover {
+    background-color: #000000;
+}
+
+.quick-btn button:hover a {
+    color: #fafafa;
+}
+
+.quick-btn button a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* shopping page end */
