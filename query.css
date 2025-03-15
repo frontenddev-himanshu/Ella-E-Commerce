@@ -519,4 +519,17 @@
         height: 500px;
     }
 
+    .offer-ani {
+        width: 80%;
+        height: 45px;
+    }
+
+
+    .offer-ani span {
+        font-size: .7rem;
+    }
+
+    .offer-ani-cancle {
+        height: 3px;
+    }
 }

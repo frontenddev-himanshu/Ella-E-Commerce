@@ -910,3 +910,36 @@ body {
 }
 
 /* shopping page end */
+
+
+/* offer ani */
+.offer-ani {
+    width: 400px;
+    height: 55px;
+    border-radius: 50px;
+    background-color: #000000;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .4s;
+}
+
+.offer-ani span {
+    color: #fafafa;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.offer-ani-cancle {
+    width: 32px;
+    height: 4px;
+    background-color: #fafafa;
+}
+

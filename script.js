@@ -161,11 +161,21 @@ $(document).ready(() => {
     })
 })
 
-
-
-
 $(document).ready(() => {
     $(".quick-btn").click(() => {
         alert("Your Item Is Added")
+    })
+})
+
+// ani
+$(document).ready(() => {
+    $(".offer-ani-cancle").click(() => {
+       $(".offer-ani").css({"display":"none"})
+    })
+})
+
+$(document).ready(() => {
+    $(".front-cancle").click(() => {
+       $(".offer-ani").css({"opacity":"1", "visibility":"visible"})
     })
 })
