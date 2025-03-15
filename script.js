@@ -150,5 +150,16 @@ $(document).ready(() => {
 
 })
 
+// show more
+$(document).ready(() => {
+    $(".more-btn-s").click(() => {
+        $(".show-more").css({"visibility":"visible", "display":"flex", "opacity":"1"})
+
+        $(".more-btn-s").css({"visibility":"hidden"})
+
+        $(".ss").css({"visibility":"visible"})
+    })
+})
+
 
 

@@ -2,14 +2,17 @@
 
     .nav,
     .nav-footer,
-    .mouseover-del {
+    .mouseover-del,
+    .s-top-wrapper,
+    .all-coll-stor-wrapper,
+    .collection-text {
         width: 90%;
     }
 
     .mouseover-del {
         gap: 70px;
     }
-    
+
     .hero-disc {
         left: 10% !important;
     }
@@ -237,11 +240,11 @@
         background-color: #fafafa;
     }
 
-    .del-list span{
+    .del-list span {
         font-size: .8rem;
     }
 
-    
+
     .mouseover-del ul li {
         font-size: .7rem;
         margin: 4px 0;
@@ -254,7 +257,44 @@
     .hero-img {
         height: 85vh;
     }
-    
+
+    /* shop page */
+    .s-top {
+        background-color: #f6f6f6;
+        margin: 0;
+
+    }
+
+    .s-top-wrapper {
+        padding: 15px 0;
+        width: 95%;
+    }
+
+    .all-coll-stor-wrapper,
+    .collection-text {
+        width: 95%;
+    }
+
+    .coll-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .store-card {
+        width: 80%;
+    }
+
+    .store-pro-i {
+        height: 800px;
+    }
+
+    .all-coll-stor-wrapper {
+        gap: 50px;
+    }
+
+
+
 }
 
 
@@ -379,7 +419,7 @@
     /* nav end */
 
     /* hero section */
-    
+
 
     .hero-disc {
         width: 200px;
@@ -396,18 +436,18 @@
         font-size: 1.2rem;
         color: #ffffff;
     }
-    
+
     .hero-head-line {
         margin-top: 5px;
         background-color: #ffffff;
     }
-    
+
     .hero-about {
         font-size: .6rem;
         color: #ffffff;
         margin-top: 10px;
     }
-    
+
     .hero-btn {
         padding: 10px 40px;
         margin-top: 10px;
@@ -416,6 +456,27 @@
     .hero-btn a {
         font-size: .5rem;
         font-weight: 800;
+    }
+
+    .store-card {
+        width: 100%;
+    }
+
+    .store-pro-i {
+        height: 600px;
+    }
+
+    .product-s-head {
+        font-size: .9rem;
+    }
+
+    .product-s-total {
+        font-size: .7rem;
+
+    }
+
+    .product-s-dec {
+        font-size: .7rem;
     }
 
 }
