@@ -1040,10 +1040,32 @@ body {
 }
 .view-all a{
     color: #3c3c3c;
-    font-size: .9rem;
+    font-size: .8rem;
     text-decoration: none;
     width: fit-content;
     text-decoration: underline;
+}
+
+.arr-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.arrav-card {
+    width: 24%;
+}
+
+.arrav-wraper {
+    height: 400px;
+}
+
+.arrav-head-card {
+    margin-top: 8px;
+}
+
+.arrav-card-btn button {
+    padding: 15px 0;
 }
 
 /* footer */

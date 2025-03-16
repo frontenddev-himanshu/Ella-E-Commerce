@@ -560,5 +560,10 @@
         font-size: .8rem;
     }
 
+    .arr-row {
+        flex-direction: column;
+        gap: 20PX;
+    }
+
 
 }
