@@ -939,6 +939,7 @@ body {
     visibility: hidden;
     opacity: 0;
     transition: all .4s;
+    z-index: 100;
 }
 
 .offer-ani span {
@@ -954,7 +955,7 @@ body {
 }
 
 /* choose sec */
-.choose-sec {
+.choose-sec, .arrivals-container {
     width: 100%;
     height: fit-content;
     display: flex;
@@ -1010,6 +1011,40 @@ body {
 }
 
 
+/* arrivals */
+.arrival-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-line, .right-line {
+    width: 32%;
+    height: 2px;
+    background-color: #000000;
+}
+
+.arrivals-wrapper {
+    width: 60%;
+}
+
+.mid-text {
+    width: 32%;
+    height: fit-content;
+    text-align: center;}
+
+.mid-text h2 {
+    color: var(--nav-footer);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.view-all a{
+    color: #3c3c3c;
+    font-size: .9rem;
+    text-decoration: none;
+    width: fit-content;
+    text-decoration: underline;
+}
 
 /* footer */
 

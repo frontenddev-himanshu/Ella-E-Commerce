@@ -10,7 +10,8 @@
     .shopping-i-wrapper,
     .shopping-footer,
     footer,
-    .choose-wrapper {
+    .choose-wrapper,
+    .arrivals-wrapper {
         width: 90%;
     }
 
@@ -271,7 +272,8 @@
 
     .all-coll-stor-wrapper,
     .collection-text,
-    .choose-wrapper {
+    .choose-wrapper,
+    .arrivals-wrapper {
         width: 95%;
     }
 
@@ -548,6 +550,14 @@
 
     .choose-link a {
         font-size: .9rem;
+    }
+
+    .mid-text h2 {
+        font-size: .9rem;
+    }
+
+    .view-all a {
+        font-size: .8rem;
     }
 
 
