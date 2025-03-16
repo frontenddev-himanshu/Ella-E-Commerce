@@ -565,5 +565,17 @@
         gap: 20PX;
     }
 
+    .editor-pic {
+        height: 15vh;
+    }
+
+    .metro-pro-contrainer {
+        height: 35vh;
+    }
+
+    .metro-dic {
+        right: 8%;
+        width: 200px;
+    }
 
 }
