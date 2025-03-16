@@ -8,7 +8,8 @@
     .collection-text,
     .shopping-product-wrapper,
     .shopping-i-wrapper,
-    .shopping-footer {
+    .shopping-footer,
+    footer {
         width: 90%;
     }
 
@@ -20,9 +21,6 @@
         left: 10% !important;
     }
 }
-
-
-
 
 @media screen and (max-width: 1023px) {
 
@@ -53,7 +51,7 @@
         visibility: hidden;
         gap: 0;
         z-index: 100;
-        transition: .5s all;
+        transition: 0.5s all;
     }
 
     .nav-footer-head {
@@ -68,7 +66,7 @@
 
     .nav-footer-head span {
         color: #ffffff;
-        font-size: .9rem;
+        font-size: 0.9rem;
         font-weight: 600;
     }
 
@@ -102,18 +100,18 @@
     .res-shop,
     .res-user i {
         color: #ffffff;
-        font-size: .9rem;
+        font-size: 0.9rem;
         font-weight: 300;
     }
 
     .wish-btn {
         color: #ffffff;
-        font-size: .9rem;
+        font-size: 0.9rem;
         font-weight: 300;
     }
 
     .slide span {
-        font-size: .8rem;
+        font-size: 0.8rem;
     }
 
     .nav-footer-wrapper {
@@ -122,7 +120,7 @@
 
     .nav-footer a {
         color: #232323 !important;
-        font-size: .8rem;
+        font-size: 0.8rem;
         font-weight: 500;
         padding: 15px 10px;
         width: fit-content;
@@ -186,7 +184,7 @@
     }
 
     .front-form p {
-        font-size: .8rem;
+        font-size: 0.8rem;
     }
 
     .front-inputs input {
@@ -207,7 +205,7 @@
         width: 100%;
         height: fit-content;
         padding: 0;
-        transition: .4s all;
+        transition: 0.4s all;
     }
 
     .mouseover-del {
@@ -220,7 +218,6 @@
         margin-left: 10px;
     }
 
-
     .mouseover-header {
         display: flex;
         justify-content: space-between;
@@ -232,7 +229,7 @@
     }
 
     .mouseover-header span {
-        font-size: .9rem;
+        font-size: 0.9rem;
         font-weight: 600;
         color: #fafafa;
     }
@@ -244,12 +241,11 @@
     }
 
     .del-list span {
-        font-size: .8rem;
+        font-size: 0.8rem;
     }
 
-
     .mouseover-del ul li {
-        font-size: .7rem;
+        font-size: 0.7rem;
         margin: 4px 0;
     }
 
@@ -265,7 +261,6 @@
     .s-top {
         background-color: #f6f6f6;
         margin: 0;
-
     }
 
     .s-top-wrapper {
@@ -296,7 +291,6 @@
         gap: 50px;
     }
 
-
     .s-pro-i-wrapper {
         height: 400px;
     }
@@ -313,12 +307,7 @@
     .quick-btn button a {
         color: #fafafa;
     }
-
 }
-
-
-
-
 
 @media screen and (max-width: 768px) {
 
@@ -340,7 +329,7 @@
     }
 
     .nav-wrapper {
-        padding: .5rem 0;
+        padding: 0.5rem 0;
     }
 
     .nav-footer-wrapper {
@@ -358,7 +347,7 @@
     }
 
     .input {
-        font-size: .6rem;
+        font-size: 0.6rem;
     }
 
     .res-shop,
@@ -377,7 +366,7 @@
     }
 
     .slide span {
-        font-size: .7rem;
+        font-size: 0.7rem;
     }
 
     .slide {
@@ -424,7 +413,7 @@
     }
 
     .del-list span {
-        font-size: .8rem;
+        font-size: 0.8rem;
     }
 
     .all-click-res-del ul {
@@ -432,13 +421,12 @@
     }
 
     .all-click-res-del ul li {
-        font-size: .7rem;
+        font-size: 0.7rem;
     }
 
     /* nav end */
 
     /* hero section */
-
 
     .hero-disc {
         width: 200px;
@@ -462,7 +450,7 @@
     }
 
     .hero-about {
-        font-size: .6rem;
+        font-size: 0.6rem;
         color: #ffffff;
         margin-top: 10px;
     }
@@ -473,7 +461,7 @@
     }
 
     .hero-btn a {
-        font-size: .5rem;
+        font-size: 0.5rem;
         font-weight: 800;
     }
 
@@ -486,18 +474,16 @@
     }
 
     .product-s-head {
-        font-size: .9rem;
+        font-size: 0.9rem;
     }
 
     .product-s-total {
-        font-size: .7rem;
-
+        font-size: 0.7rem;
     }
 
     .product-s-dec {
-        font-size: .7rem;
+        font-size: 0.7rem;
     }
-
 
     .s-pro-row {
         flex-direction: column;
@@ -524,12 +510,26 @@
         height: 45px;
     }
 
-
     .offer-ani span {
-        font-size: .7rem;
+        font-size: 0.7rem;
     }
 
     .offer-ani-cancle {
         height: 3px;
+    }
+
+    /* footer */
+    footer {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer-all-link {
+        width: 100%;
+    }
+
+    .copy {
+        font-size: 0.7rem;
+        padding: 0 10px;
     }
 }

@@ -170,12 +170,12 @@ $(document).ready(() => {
 // ani
 $(document).ready(() => {
     $(".offer-ani-cancle").click(() => {
-       $(".offer-ani").css({"display":"none"})
+        $(".offer-ani").css({ "display": "none" })
     })
 })
 
 $(document).ready(() => {
     $(".front-cancle").click(() => {
-       $(".offer-ani").css({"opacity":"1", "visibility":"visible"})
+        $(".offer-ani").css({ "opacity": "1", "visibility": "visible" })
     })
 })
