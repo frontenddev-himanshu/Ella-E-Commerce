@@ -709,6 +709,7 @@ body {
     height: 420px;
     object-fit: cover;
     object-position: center;
+    transition: .4s all;
 }
 
 .product-s-head {
@@ -765,7 +766,15 @@ body {
     transition: .5s all;
 }
 
+.store-product-img {
+    overflow: hidden;
+    transition: .4 all;
+}
 
+.store-card:hover .store-pro-i {
+     scale: 1.1;
+
+}
 /* shop page end */
 
 
