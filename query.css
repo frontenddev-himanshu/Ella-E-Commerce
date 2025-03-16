@@ -546,5 +546,9 @@
         height: 250px;
     }
 
+    .choose-link a {
+        font-size: .9rem;
+    }
+
 
 }
