@@ -9,7 +9,8 @@
     .shopping-product-wrapper,
     .shopping-i-wrapper,
     .shopping-footer,
-    footer {
+    footer,
+    .choose-wrapper {
         width: 90%;
     }
 
@@ -269,7 +270,8 @@
     }
 
     .all-coll-stor-wrapper,
-    .collection-text {
+    .collection-text,
+    .choose-wrapper {
         width: 95%;
     }
 
@@ -497,7 +499,8 @@
 
     .shopping-product-wrapper,
     .shopping-i-wrapper,
-    .shopping-footer {
+    .shopping-footer,
+    .choose-wrapper {
         width: 95%;
     }
 
@@ -532,4 +535,16 @@
         font-size: 0.7rem;
         padding: 0 10px;
     }
+
+    .choose-wrapper {
+        flex-direction: column;
+        gap: 20px
+    }
+
+    .choose-boxes {
+        width: 100%;
+        height: 250px;
+    }
+
+
 }
