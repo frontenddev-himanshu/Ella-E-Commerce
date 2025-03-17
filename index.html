@@ -239,22 +239,17 @@
                     <div class="line"></div>
                 </a>
 
-                <a href="#product">
+                <a href="#fea">
                     Product
                     <div class="line"></div>
                 </a>
 
-                <a href="#">
-                    Blog
-                    <div class="line"></div>
-                </a>
-
-                <a href="#">
+                <a href="./shop.html">
                     Pages
                     <div class="line"></div>
                 </a>
 
-                <a href="#">
+                <a href="#product">
                     New in
                     <div class="line"></div>
                 </a>
@@ -1053,7 +1048,7 @@
 
 
     <!-- featured -->
-    <div class="arrivals-container" id="product">
+    <div class="arrivals-container" id="fea">
         <div class="arrivals-wrapper">
             <div class="arrival-header">
                 <div class="left-line"></div>
@@ -1329,59 +1324,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 4,
-            centeredSlides: true,
-            spaceBetween: 50,
-            loop: true,
-            autoplay: {
-                delay: 1500,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                type: "fraction",
 
-            }
-        });
-
-        var appendNumber = 4;
-        var prependNumber = 1;
-        document
-            .querySelector(".prepend-2-slides")
-            .addEventListener("click", function (e) {
-                e.preventDefault();
-                swiper.prependSlide([
-                    '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
-                    '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
-                ]);
-            });
-        document
-            .querySelector(".prepend-slide")
-            .addEventListener("click", function (e) {
-                e.preventDefault();
-                swiper.prependSlide(
-                    '<div class="swiper-slide">Slide ' + --prependNumber + "</div>"
-                );
-            });
-        document
-            .querySelector(".append-slide")
-            .addEventListener("click", function (e) {
-                e.preventDefault();
-                swiper.appendSlide(
-                    '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>"
-                );
-            });
-        document
-            .querySelector(".append-2-slides")
-            .addEventListener("click", function (e) {
-                e.preventDefault();
-                swiper.appendSlide([
-                    '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
-                    '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
-                ]);
-            });
-    </script>
 
 
 
