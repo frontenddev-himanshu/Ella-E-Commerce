@@ -1194,7 +1194,61 @@ body {
     object-fit: cover;
 }
 
+/* ella instagram */
+.ella-insta-container {
+    width: 100%;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
 
+.ella-wrapper {
+    width: 60%;
+}
+
+.ella-insta {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ella-insta i {
+    font-size: 1.3rem;
+    color: #232323;
+}
+
+.ella-insta p {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.ella-insta-p {
+    font-size: .8rem;
+    color: #232323;
+    margin-top: 10px;
+}
+
+.ella-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ella-i-imgs {
+    margin-top: 50px;
+}
+
+.insta-img-wrapper {
+    display: flex;
+    justify-content: space-between
+}
+
+.insta-img-wrapper img {
+    width: 19%;
+    height: 220px;
+    object-fit: cover;
+}
 
 /* footer */
 
@@ -1205,7 +1259,6 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: var(--hero-text);
-    margin-top: 20px;
 }
 
 footer {

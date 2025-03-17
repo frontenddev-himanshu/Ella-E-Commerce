@@ -12,7 +12,8 @@
     footer,
     .choose-wrapper,
     .arrivals-wrapper,
-    .brand-slider-wrapper {
+    .brand-slider-wrapper,
+    .ella-wrapper {
         width: 90%;
     }
 
@@ -275,7 +276,8 @@
     .collection-text,
     .choose-wrapper,
     .arrivals-wrapper,
-    .brand-slider-wrapper {
+    .brand-slider-wrapper,
+    .ella-wrapper {
         width: 95%;
     }
 
@@ -316,8 +318,18 @@
 
     .featured-product {
         flex-direction: column;
+        align-items: center;
         gap: 30px;
     }
+
+    .ella-insta-p {
+        text-align: center;
+    }
+
+    .res-f-card {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -600,5 +612,22 @@
         height: fit-content;
     }
 
+    .insta-img-wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .insta-img-wrapper img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .ella-insta-p {
+        text-align: center;
+    }
+
+    .res-f-card {
+        display: none;
+    }
 
 }
