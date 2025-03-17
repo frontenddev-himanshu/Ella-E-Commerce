@@ -1136,6 +1136,64 @@ body {
 }
 
 
+/* featured-product */
+.featured-product {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.store-product-img {
+    overflow: hidden;
+}
+
+.featured-card {
+    width: 33% !important;
+}
+
+
+/* brands */
+.brands-wrapper {
+    width: 100%;
+    padding: 20px 0;
+    border-top: 1px solid #0000004b;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.brands-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.brand-slider-wrapper {
+    display: flex;
+    overflow: hidden;
+    width: 60%;
+    position: relative;
+}
+
+.b-slider {
+    display: flex;
+    white-space: nowrap;
+}
+
+.brand-card-slide {
+    width: 250px;
+    height: 100px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-card-slide img {
+    height: 70px;
+    object-fit: cover;
+}
+
 
 
 /* footer */

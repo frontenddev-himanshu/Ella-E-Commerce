@@ -11,7 +11,8 @@
     .shopping-footer,
     footer,
     .choose-wrapper,
-    .arrivals-wrapper {
+    .arrivals-wrapper,
+    .brand-slider-wrapper {
         width: 90%;
     }
 
@@ -273,7 +274,8 @@
     .all-coll-stor-wrapper,
     .collection-text,
     .choose-wrapper,
-    .arrivals-wrapper {
+    .arrivals-wrapper,
+    .brand-slider-wrapper {
         width: 95%;
     }
 
@@ -310,6 +312,11 @@
 
     .quick-btn button a {
         color: #fafafa;
+    }
+
+    .featured-product {
+        flex-direction: column;
+        gap: 30px;
     }
 }
 
@@ -577,5 +584,21 @@
         right: 8%;
         width: 200px;
     }
+
+    .featured-product {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    .f-card-i {
+        height: 400px;
+    }
+
+    .brand-card-slide {
+        width: 200px;
+        height: fit-content;
+    }
+
 
 }
